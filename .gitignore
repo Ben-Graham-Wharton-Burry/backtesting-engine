@@ -15,7 +15,9 @@ venv/
 backtest_results/
 
 # Stale per-run caches. The committed snapshot is data_cache/prices_daily.csv
-data_cache/prices_[A-Z]*.csv
+# Named explicitly: Git on Windows matches case-insensitively, so a pattern
+# like prices_[A-Z]*.csv also matched (and excluded) prices_daily.csv
+data_cache/prices_AMT_ANET_CAT_DLR_EQIX_*.csv
 data_cache/prices.csv
 
 # OS

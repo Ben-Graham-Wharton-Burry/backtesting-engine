@@ -1,4 +1,4 @@
-﻿# Event-Driven Backtesting Engine
+# Event-Driven Backtesting Engine
 
 A day-by-day portfolio simulator written from scratch in Python, built so that look-ahead bias is prevented by construction rather than by discipline.
 
@@ -61,16 +61,16 @@ The price snapshot in `data_cache/` is committed, so the notebook reproduces the
 
 ```
 backtesting_engine.ipynb
-â”‚
-â”œâ”€â”€ DataLoader            Frozen snapshot first, live download as fallback
-â”œâ”€â”€ BacktestEngine        Day-by-day simulator
-â”‚   â”œâ”€â”€ run()             Mark to market, query strategy, rebalance, record
-â”‚   â”œâ”€â”€ _rebalance()      Order generation, sells before buys, cost application
-â”‚   â””â”€â”€ get_trade_log()   Fill-level audit trail
-â”œâ”€â”€ Strategies            Five rules, one interface
-â”œâ”€â”€ PerformanceAnalytics  Return and risk-adjusted metrics
-â”œâ”€â”€ RiskAnalytics         Drawdown decomposition, rolling estimates
-â””â”€â”€ Visualizer            Five diagnostic charts
+│
+├── DataLoader            Frozen snapshot first, live download as fallback
+├── BacktestEngine        Day-by-day simulator
+│   ├── run()             Mark to market, query strategy, rebalance, record
+│   ├── _rebalance()      Order generation, sells before buys, cost application
+│   └── get_trade_log()   Fill-level audit trail
+├── Strategies            Five rules, one interface
+├── PerformanceAnalytics  Return and risk-adjusted metrics
+├── RiskAnalytics         Drawdown decomposition, rolling estimates
+└── Visualizer            Five diagnostic charts
 ```
 
 ## Related
