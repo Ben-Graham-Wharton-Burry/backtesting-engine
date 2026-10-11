@@ -1,0 +1,24 @@
+# Backups created while editing
+_backups/
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated output
+backtest_results/
+
+# Stale per-run caches. The committed snapshot is data_cache/prices_daily.csv
+data_cache/prices_[A-Z]*.csv
+data_cache/prices.csv
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
