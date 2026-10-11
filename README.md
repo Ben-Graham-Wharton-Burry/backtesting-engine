@@ -79,4 +79,4 @@ The portfolio under test comes from [ai-datacenter-portfolio](https://github.com
 
 ## Author
 
-Benjamin Kristensen, MSc Applied Economics and Finance, Copenhagen Business School.
+High_Magus_of_Risk.
